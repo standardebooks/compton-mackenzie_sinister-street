@@ -46,7 +46,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/33798</dc:source>
 		<dc:source>https://archive.org/details/sinisterstreet01mack</dc:source>
 		<dc:source>https://archive.org/details/sinisterstreet02mack</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">Originally split into two volumes, each with books 1 and 2. In this production I’ve made it one volume with books 1 to 4.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Sinister_Street</meta>
