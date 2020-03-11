@@ -80,3 +80,13 @@ p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
 }
+
+#chapter-1-2 blockquote:last-of-type{
+	border: 1px solid;
+	margin-left: auto;
+	margin-right: auto;
+	width: 14em;
+	padding: 1em;
+	font-variant: small-caps;
+	text-align: center;
+}
