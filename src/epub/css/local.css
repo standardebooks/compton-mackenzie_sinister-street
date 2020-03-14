@@ -125,6 +125,14 @@ p span.i1{
 }
 
 /* custom styles */
+.newspaper-title{
+	text-align: center;
+	font-style: italic;
+}
+.newspaper-title > header > p{
+	font-style: normal;
+}
+
 [epub|type~="dedication"] .signature,
 [epub|type~="afterword"] .signature{
 	font-style: normal;
