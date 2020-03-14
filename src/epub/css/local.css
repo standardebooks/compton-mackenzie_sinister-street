@@ -24,14 +24,23 @@ blockquote[xml|lang],
 	font-style: italic;
 }
 
+span[epub|type~="subtitle"]{
+	display: block;
+	font-weight: normal;
+}
+
+abbr.era{
+	font-variant: all-small-caps;
+}
+
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
 }
 
 [epub|type~="z3998:postscript"]{
+	margin-top: 1em;
 	text-align: left;
-	margin: 0.5em 0;
 }
 
 [epub|type~="se:letter.dateline"]{
@@ -44,6 +53,12 @@ blockquote[xml|lang],
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
 }
 /* End all epigraphs */
 
@@ -83,8 +98,7 @@ section[epub|type~="epigraph"] > *{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:song"] p + p,
-[epub|type~="z3998:verse"] p + p{
+[epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
 
