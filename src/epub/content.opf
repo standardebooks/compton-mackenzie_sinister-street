@@ -51,11 +51,11 @@
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Sinister_Street</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/compton-mackenzie_sinister-street</meta>
-		<dc:creator id="author">Compton MacKenzie</dc:creator>
-		<meta property="file-as" refines="#author">AUTHOR_SORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Compton_MacKenzie</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHOR_NACOAF_URL</meta>
+		<dc:creator id="author">Compton Mackenzie</dc:creator>
+		<meta property="file-as" refines="#author">Mackenzie, Compton</meta>
+		<meta property="se:name.person.full-name" refines="#author">Edward Montague Compton Mackenzie</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Compton_Mackenzie</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79071096</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Boris Grigoriev</dc:contributor>
 		<meta property="alternate-script" refines="#artist" xml:lang="ru">Бори́с Дми́триевич</meta>
@@ -64,15 +64,15 @@
 		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n85159241</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Chuck Greif</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Greif, Chuck</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">The Online Distributed Proofreading Team</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Online Distributed Proofreading Team, The</meta>
 		<meta property="se:url.homepage" refines="#transcriber-2">https://pgdp.net</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
