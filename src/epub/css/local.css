@@ -18,7 +18,11 @@ td{
 	padding: 0 0.5em 0 0;
 }
 
-.signature,
+.signature{
+	font-style: italic;
+}
+
+[epub|type~="z3998:salutation"],
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
 }
@@ -31,6 +35,7 @@ td{
 [epub|type~="se:letter.dateline"]{
 	text-align: left;
 	font-style: italic;
+	font-variant: none;
 }
 
 /* All epigraphs */
@@ -98,6 +103,18 @@ p span.i1{
 	padding-left: 2em;
 }
 
+[epub|type~="z3998:letter"] header{
+	text-align: right;
+	font-variant: small-caps;
+}
+
+/* custom styles */
+[epub|type~="dedication"] .signature,
+[epub|type~="afterword"] .signature{
+	font-style: normal;
+	font-variant: small-caps;
+}
+
 #chapter-1-2 blockquote:last-of-type{
 	border: 1px solid;
 	margin-left: auto;
@@ -116,4 +133,9 @@ p span.i1{
 	font-weight: 100;
 	font-size: 3.5em;
 	padding: 0;
+}
+
+#chapter-2-8 blockquote:first-of-type > header > p:last-child{
+	text-align: center;
+	font-variant: small-caps;
 }
