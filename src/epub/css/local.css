@@ -8,6 +8,7 @@ q{
 }
 
 footer{
+	margin-top: 1em;
 	text-align: right;
 }
 
@@ -50,7 +51,6 @@ abbr.era{
 }
 
 [epub|type~="se:letter.dateline"]{
-	text-align: left;
 	font-style: italic;
 	font-variant: none;
 }
