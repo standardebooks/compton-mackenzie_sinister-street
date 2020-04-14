@@ -169,3 +169,8 @@ p span.i1{
 	text-align: center;
 	font-variant: small-caps;
 }
+
+#chapter-2-8 blockquote:first-of-type > header > p:last-child img{
+	height: 0.75em;
+	vertical-align: baseline;
+}
