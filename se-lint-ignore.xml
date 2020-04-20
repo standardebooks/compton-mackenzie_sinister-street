@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-3-5.xhtml">
+		<ignore>
+			<code>t-022</code>
+			<reason>C. St. C. Wedderburn automatically has an nbsp inserted after St. by typogrify.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-7.xhtml">
+		<ignore>
+			<code>t-022</code>
+			<reason>C. St. C. Wedderburn automatically has an nbsp inserted after St. by typogrify.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3-8.xhtml">
+		<ignore>
+			<code>t-022</code>
+			<reason>C. St. C. Wedderburn automatically has an nbsp inserted after St. by typogrify.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
