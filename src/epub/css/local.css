@@ -2,7 +2,6 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
-var,
 q{
 	font-style: italic;
 	quotes: none;
@@ -175,4 +174,8 @@ p span.i1{
 #chapter-2-8 blockquote:first-of-type > header > p:last-child img{
 	height: 0.75em;
 	vertical-align: baseline;
+}
+
+[epub|type~="z3998:salutation"] + p{
+	text-indent: 0;
 }
