@@ -158,6 +158,7 @@ p span.i1{
 
 #chapter-1-4 table:first-of-type{
 	width: 100%;
+	max-width: 35em;
 }
 
 #chapter-1-4 th + td{
