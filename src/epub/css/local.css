@@ -31,11 +31,6 @@ blockquote[xml|lang],
 	font-style: italic;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 abbr.era{
 	font-variant: all-small-caps;
 }
