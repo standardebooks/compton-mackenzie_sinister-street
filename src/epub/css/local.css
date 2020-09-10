@@ -27,7 +27,7 @@ td{
 
 ol[xml|lang],
 blockquote[xml|lang],
-[epub:type~="z3998:signature"]{
+[epub|type~="z3998:signature"]{
 	font-style: italic;
 }
 
@@ -137,8 +137,8 @@ p span.i1{
 	font-style: normal;
 }
 
-[epub|type~="dedication"] [epub:type~="z3998:signature"],
-[epub|type~="afterword"] [epub:type~="z3998:signature"]{
+[epub|type~="dedication"] [epub|type~="z3998:signature"],
+[epub|type~="afterword"] [epub|type~="z3998:signature"]{
 	font-style: normal;
 	font-variant: small-caps;
 }
