@@ -167,6 +167,7 @@ p span.i1{
 #chapter-2-8 blockquote:first-of-type > header > p:last-child{
 	text-align: center;
 	font-variant: small-caps;
+	text-indent: 0;
 }
 
 #chapter-2-8 blockquote:first-of-type > header > p:last-child img{
