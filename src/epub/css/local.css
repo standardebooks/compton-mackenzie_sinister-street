@@ -20,7 +20,7 @@ table{
 th,
 td{
 	font-weight: normal;
-	text-align: left;
+	text-align: initial;
 	vertical-align: middle;
 	padding: 0 0.5em 0 0;
 }
@@ -42,7 +42,7 @@ abbr.era{
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -75,7 +75,7 @@ section[epub|type~="epigraph"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: flex){
@@ -97,7 +97,7 @@ section[epub|type~="epigraph"] > *{
 
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
