@@ -7,6 +7,11 @@ q{
 	quotes: none;
 }
 
+.newspaper-title i,
+q i{
+	font-style: normal;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
