@@ -50,7 +50,7 @@
 		<dc:source>https://archive.org/details/sinisterstreet01mack</dc:source>
 		<dc:source>https://archive.org/details/sinisterstreet02mack</dc:source>
 		<meta property="se:production-notes">Originally split into two volumes, each with two books 1 and 2, for purely publishing reasons (see dedication for more details). In this production I’ve made it one volume with books 1 to 4.</meta>
-		<meta property="se:word-count">351710</meta>
+		<meta property="se:word-count">351708</meta>
 		<meta property="se:reading-ease.flesch">71.85</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Sinister_Street</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/compton-mackenzie_sinister-street</meta>
