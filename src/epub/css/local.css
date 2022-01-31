@@ -25,9 +25,9 @@ table{
 th,
 td{
 	font-weight: normal;
+	padding: 0 0.5em 0 0;
 	text-align: initial;
 	vertical-align: middle;
-	padding: 0 0.5em 0 0;
 }
 
 ol[xml|lang],
@@ -64,9 +64,9 @@ blockquote[xml|lang],
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 /* End all epigraphs */
 
@@ -128,14 +128,14 @@ p span.i1{
 }
 
 [epub|type~="z3998:letter"] header{
-	text-align: right;
 	font-variant: small-caps;
+	text-align: right;
 }
 
 /* custom styles */
 .newspaper-title{
-	text-align: center;
 	font-style: italic;
+	text-align: center;
 }
 
 .newspaper-title > header > p{
@@ -150,28 +150,28 @@ p span.i1{
 
 #chapter-1-2 blockquote:last-of-type{
 	border: 1px solid;
+	font-variant: small-caps;
 	margin-left: auto;
 	margin-right: auto;
-	width: 14em;
 	padding: 1em;
-	font-variant: small-caps;
 	text-align: center;
+	width: 14em;
 }
 
 #chapter-1-4 table:first-of-type{
-	width: 100%;
 	max-width: 35em;
+	width: 100%;
 }
 
 #chapter-1-4 th + td{
-	font-weight: 100;
 	font-size: 3.5em;
+	font-weight: 100;
 	padding: 0;
 }
 
 #chapter-2-8 blockquote:first-of-type > header > p:last-child{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 	text-indent: 0;
 }
 
