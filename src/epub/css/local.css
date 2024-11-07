@@ -25,7 +25,7 @@ table{
 th,
 td{
 	font-weight: normal;
-	padding: 0 0.5em 0 0;
+	padding: 0 .5em 0 0;
 	text-align: initial;
 	vertical-align: middle;
 }
@@ -176,7 +176,7 @@ p span.i1{
 }
 
 #chapter-2-8 blockquote:first-of-type > header > p:last-child img{
-	height: 0.75em;
+	height: .75em;
 	vertical-align: baseline;
 }
 
