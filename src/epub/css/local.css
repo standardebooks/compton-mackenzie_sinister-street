@@ -51,6 +51,7 @@ blockquote[xml|lang],
 	text-indent: 0;
 }
 
+#dedication footer p:last-child,
 [epub|type~="se:letter.dateline"]{
 	font-style: italic;
 	font-variant: none;
