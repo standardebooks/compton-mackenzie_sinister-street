@@ -40,11 +40,13 @@ blockquote[xml|lang],
 	font-variant: all-small-caps;
 }
 
+#dedication > p:first-of-type,
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:recipient"]{
 	font-variant: small-caps;
 }
 
+#dedication footer p:first-of-type + p,
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
 	text-align: initial;
@@ -181,6 +183,7 @@ p span.i1{
 	vertical-align: baseline;
 }
 
+#dedication > p:first-of-type + p,
 [epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
