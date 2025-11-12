@@ -60,8 +60,8 @@
 		<meta property="se:name.person.full-name" refines="#author">Edward Montague Compton Mackenzie</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Compton_Mackenzie</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79071096</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">waw</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">waw</meta>
 		<dc:contributor id="artist">Boris Grigoriev</dc:contributor>
 		<meta property="alternate-script" refines="#artist" xml:lang="ru">Бори́с Дми́триевич</meta>
 		<meta property="file-as" refines="#artist">Grigoriev, Boris</meta>
